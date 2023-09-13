@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/**nav bar align**/
+body {
+  position: relative;
+  background-image: url(./image/contect.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.navbar-nav {
+  margin-left: 600px;
+}
+
+nav {
+  box-shadow: 2px 3px 5px rgb(197, 195, 195);
+}
+
+form {
+  margin-right: 8px;
+}
+
+section img {
+  margin-top: 65px;
+  width: 100%;
+  height: 250px;
+}
+
+.map {
+  float: right;
+  margin-top: -350px;
+  margin-right: 50px;
+  color: red;
+  border-radius: 15px;
+}
+
+.content {
+  margin-left: 50px;
+  margin-top: 70px;
+}
+
+iframe {
+  padding: 10px;
+}
+
+.text {
+  margin-left: 50px;
+  margin-top: 70px;
+}
+
+.cover {
+  border: 1px solid black;
+  margin: 20px 10px 20px 10px;
+  height: 205vh;
+}
+
+.image {
+  border-radius: 100%;
+  margin-bottom: 15px;
+  margin-left: 100px;
+}
+
+.designer {
+  margin-left: 900px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  margin-top: -460px;
+  margin-right: 60px;
+  margin-bottom: 90px;
+}
+
+.side-text {
+  margin-right: -10px;
+}
+
+#designer {
+  margin-left: 190px;
+  margin-top: 40px;
+}
+
+#desiner2 {
+  margin-left: 930px;
+  margin-top: -510px;
+}
+
+.bottem {
+  border: 1px solid black;
+  margin: 40px 20px 40px 20px;
+}
+
+.last-box {
+  background-color: rgb(7, 7, 49);
+  color: white;
+  margin-top: 65px;
+  height: 100px;
+  margin-left: -50px;
+}
+
+.sign-content {
+  position: relative;
+
+}
+
+#last {
+  margin-left: 700px;
+  position: absolute;
+  bottom: -120px;
+}
+
+button:hover {
+  background-color: white;
+
+}
+
+button:active {
+  background-color: gray;
+  color: rgb(253, 253, 253);
+  font-weight: 600;
+}
+
+.s-text {
+  margin-left: 20px;
+}

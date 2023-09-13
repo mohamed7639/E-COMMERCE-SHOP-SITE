@@ -1,0 +1,217 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+/**nav bar align**/
+body {
+  position: relative;
+  background-color: rgb(241, 241, 241);
+  min-height: 0;
+  min-width: 0;
+  overflow-x: hidden;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.navbar-nav {
+  margin-left: 600px;
+}
+
+img {
+  margin-left: 15px;
+}
+
+nav {
+  box-shadow: 2px 3px 5px rgb(197, 195, 195);
+}
+
+form {
+  margin-right: 8px;
+}
+
+/* benar aign*/
+.blog-top-bener {
+  width: 100%;
+  height: 300px;
+  margin-left: 0%;
+  opacity: 0.7;
+}
+
+.text {
+  position: absolute;
+  color: rgb(12, 12, 12);
+  margin-left: 460px;
+  margin-top: -160px;
+  z-index: 1;
+}
+
+.first {
+  margin-left: 70px;
+  margin-right: 30px;
+  float: left;
+}
+
+.content-align {
+  margin-top: 40px;
+}
+
+/** read more function**/
+#container p {
+  color: rgb(10, 10, 10);
+  display: -webkit-box;
+  margin-bottom: 5px;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+#span::before {
+  content: 'Show More';
+  color: rgb(136, 5, 5);
+  cursor: pointer;
+  margin-left: 435px;
+  font-weight: 900;
+}
+
+#span:hover {
+  color: black;
+}
+
+#container.active p {
+  display: block;
+}
+
+#container.active #span::before {
+  content: 'Show less';
+
+}
+
+/** read more function second**/
+#container-two p {
+  color: rgb(10, 10, 10);
+  display: -webkit-box;
+  margin-bottom: 5px;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+#span-two::before {
+  content: 'Show More';
+  color: rgb(136, 5, 5);
+  cursor: pointer;
+  margin-left: 435px;
+  font-weight: 900;
+}
+
+#span-two:hover {
+  color: black;
+}
+
+#container-two.active p {
+  display: block;
+}
+
+#container-two.active #span-two::before {
+  content: 'Show less';
+
+}
+
+/** read more function three*/
+#container-three p {
+  color: rgb(10, 10, 10);
+  display: -webkit-box;
+  margin-bottom: 5px;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+#span-three::before {
+  content: 'Show More';
+  color: rgb(136, 5, 5);
+  cursor: pointer;
+  font-weight: 900;
+  margin-left: 435px;
+}
+
+#span-three:hover {
+  color: black;
+}
+
+#container-three.active p {
+  display: block;
+}
+
+#container-three.active #span-three::before {
+  content: 'Show less';
+
+}
+
+/** read more function four**/
+#container-four p {
+  color: rgb(10, 10, 10);
+  display: -webkit-box;
+  margin-bottom: 5px;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+#span-four::before {
+  content: 'Show More';
+  color: rgb(136, 5, 5);
+  cursor: pointer;
+  font-weight: 900;
+  margin-left: 435px;
+}
+
+#span-four:hover {
+  color: black;
+}
+
+#container-four.active p {
+  display: block;
+}
+
+#container-four.active #span-four::before {
+  content: 'Show less';
+
+}
+
+/**end box content**/
+.last-box {
+  background-color: rgb(7, 7, 49);
+  color: white;
+  margin-top: 90px;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 100px;
+  margin-bottom: -70%;
+}
+
+.sign-content {
+  position: relative;
+  padding-left: 50px;
+}
+
+#last {
+  margin-left: 700px;
+  position: absolute;
+  bottom: 10px;
+}
+
+button:hover {
+  background-color: #064b3a;
+  color: white;
+}
+
+button:active {
+  background-color: #11e2ae;
+}
